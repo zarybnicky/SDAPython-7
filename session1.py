@@ -21,7 +21,16 @@
 # - git push
 # - git pull
 
-# Current location / status bar
+# Jupyter Lab
+# In Git Bash,
+#   0. cd [DESIRED DIR]
+#   0. python -m venv ./venv
+#   0. . venv/Scripts/activate
+
+#   1. pip install jupyterlab
+#   2. jupyter-lab
+#   ... (browser opens, do some work)
+#   3. Ctrl-C in Git Bash to quit
 
 # Tasks:
 # 1. Make a directory
