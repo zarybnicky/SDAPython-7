@@ -24,9 +24,6 @@
 # Jupyter Lab
 # In Git Bash,
 #   0. cd [DESIRED DIR]
-#   0. python -m venv ./venv
-#   0. . venv/Scripts/activate
-
 #   1. pip install jupyterlab
 #   2. jupyter-lab
 #   ... (browser opens, do some work)
