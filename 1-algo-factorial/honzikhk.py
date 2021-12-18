@@ -7,6 +7,7 @@ def factorial(n: int) -> int:
         res *= i
     return res
 
+
 print(factorial(5))
 
 
