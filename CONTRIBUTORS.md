@@ -1,4 +1,5 @@
 - Jakub Zárybnický <jakub@zarybnicky.com>
+- Kateřina Krátká <katerina.kratka@ice.cz>   
 - Eda Patka <eduard.patka@gmail.com>
 - Jan Tobišek <email@gmail.com>
 - Miroslav Jezik <miracle.flame@gmail.com>
