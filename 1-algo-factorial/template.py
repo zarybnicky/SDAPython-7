@@ -1,6 +1,10 @@
 
 def factorial(n: int) -> int:
-    pass
+    n = 2
+    factorial = 1
+
+    for i in range(1, n + 1):
+        factorial = fact * i
 
 
 # <editor-fold defaultstate="collapsed" desc="Tests">
