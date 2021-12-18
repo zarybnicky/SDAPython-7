@@ -1,1 +1,2 @@
 - Jakub Zárybnický <jakub@zarybnicky.com>
+- Adela Kolackova <kolackova.adela@gmail.com>
