@@ -1,4 +1,5 @@
 - Jakub Zárybnický <jakub@zarybnicky.com>
+- Kateřina Krátká <katerina.kratka@ice.cz>   
 - Monika Mandáčková
 - Dalibor Hriadel <simpleton@simpleton.sk>
 - Milan Laporcak <milankkdkdko@laporcak.com>
