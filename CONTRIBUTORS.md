@@ -1,4 +1,5 @@
 - Jakub Zárybnický <jakub@zarybnicky.com>
+- Adela Kolackova <kolackova.adela@gmail.com>
 - Zuzana Stecíková <zuzanastecikova@post.sk>
 - Milan Vrbjar <vrbjar@icloud.com>
 - Kateřina Krátká <katerina.kratka@ice.cz>   
