@@ -1,2 +1,5 @@
 - Jakub Zárybnický <jakub@zarybnicky.com>
 - Miroslav Jezik <miracle.flame@gmail.com>
+- Michal Plačko <plackomichal2@gmail.com>
+- Jan Novák
+- Dalibor Hriade <simp@simpleton.com>
