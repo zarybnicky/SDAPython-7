@@ -1,8 +1,19 @@
 from typing import List
 
+# [1] => [1]
+# [[1]] => [1]
+# [1, [1]] => [1, 1]
+
+
+def is_list(xs) -> bool:
+    return isinstance(xs, list)
+
 
 def flatten(xs: List) -> List[int]:
-    return []
+    result = []
+    for item in xs:
+        result.append(item)
+    return result
 
 
 # <editor-fold defaultstate="collapsed" desc="Tests">
