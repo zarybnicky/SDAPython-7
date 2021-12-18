@@ -1,4 +1,5 @@
 - Jakub Zárybnický <jakub@zarybnicky.com>
+- Dalibor Hriadel <simpleton@simpleton.sk>
 - Milan Laporcak <milankkdkdko@laporcak.com>
 - Adela Kolackova <kolackova.adela@gmail.com>
 - Zuzana Stecíková <zuzanastecikova@post.sk>
