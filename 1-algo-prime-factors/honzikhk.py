@@ -13,6 +13,8 @@ def get_prime_factors(n: int) -> List[int]:
             n /= num
     return res
 
+# cele jsem to zkopiroval, toto neni muj kod :D i hate prime numbers
+
 
 
 
