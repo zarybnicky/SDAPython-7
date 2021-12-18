@@ -1,1 +1,2 @@
 - Jakub Zárybnický <jakub@zarybnicky.com>
+- Jan Novák
