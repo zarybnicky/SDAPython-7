@@ -12,4 +12,4 @@
 - Michal Plačko <plackomichal2@gmail.com>
 - Jan Novák
 - Dalibor Hriade <simp@simpleton.com>
-- Jaromír
+- Jaromír Baca jaromirbaca88@gmail.com
