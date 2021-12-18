@@ -1,1 +1,2 @@
 - Jakub Zárybnický <jakub@zarybnicky.com>
+- Miroslav Jezik <miracle.flame@gmail.com>
