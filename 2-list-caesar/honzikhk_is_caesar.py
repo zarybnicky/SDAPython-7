@@ -33,7 +33,6 @@ def caesar_encode(key: int, string: str) -> str:
     return result
 
 
-
 def caesar_decode(key: int, string: str) -> str:
     result = ""
     if string == "":
