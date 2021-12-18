@@ -29,3 +29,8 @@ In Git Bash,
 3. ... (browser opens, do some work)
 4. Ctrl-C in Git Bash to quit
 
+## Fork a repository & sync a fork
+1. git clone [YOUR FORK]
+2. git remote add upstream [ORIGINAL REPO]
+3. git pull upstream master
+4. git rebase upstream/master
