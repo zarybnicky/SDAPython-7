@@ -4,6 +4,7 @@ def factorial(n: int) -> int:
         return 0
     return n * factorial(n - 1)
 
+
 # <editor-fold defaultstate="collapsed" desc="Tests">
 def test_factorial():
     assert factorial(0) == 1
