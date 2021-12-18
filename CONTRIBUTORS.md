@@ -1,1 +1,2 @@
 - Jakub Zárybnický <jakub@zarybnicky.com>
+- Zuzana Stecíková <zuzanastecikova@post.sk>
