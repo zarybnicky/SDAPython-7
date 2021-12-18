@@ -1,2 +1,2 @@
 - Jakub Zárybnický <jakub@zarybnicky.com>
-- Kateřina Krátká <katerina.kratka@ice.cz>  
+- Kateřina Krátká <katerina.kratka@ice.cz>   
