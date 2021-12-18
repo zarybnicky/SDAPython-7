@@ -1,4 +1,5 @@
 - Jakub Zárybnický <jakub@zarybnicky.com>
+- Milan Vrbjar <vrbjar@icloud.com>
 - Kateřina Krátká <katerina.kratka@ice.cz>   
 - Eda Patka <eduard.patka@gmail.com>
 - Jan Tobišek <email@gmail.com>
