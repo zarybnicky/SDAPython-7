@@ -1,6 +1,8 @@
 
 def factorial(n: int) -> int:
-    pass
+    if n <= 1:
+        return 1
+    return n * factorial(n - 1)
 
 
 # <editor-fold defaultstate="collapsed" desc="Tests">
