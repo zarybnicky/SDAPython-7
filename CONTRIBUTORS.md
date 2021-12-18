@@ -1,2 +1,2 @@
 - Jakub Zárybnický <jakub@zarybnicky.com>
-- Eda Patka
+- Eda Patka <eduard.patka@gmail.com>
