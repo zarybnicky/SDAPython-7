@@ -8,6 +8,7 @@ def get_prime_factors(n: int) -> List[int]:
         while n % prime == 0:
             result.append(prime)
             n /= prime
+    print(result)
     return result
 
 get_prime_factors(12)
