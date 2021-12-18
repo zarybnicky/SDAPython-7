@@ -1,4 +1,5 @@
 - Jakub Zárybnický <jakub@zarybnicky.com>
+- Kateřina Krátká <katerina.kratka@ice.cz>   
 - Monika Mandáčková
 - Dalibor Hriadel <simpleton@simpleton.sk>
 - Milan Laporcak <milankkdkdko@laporcak.com>
@@ -11,5 +12,3 @@
 - Miroslav Jezik <miracle.flame@gmail.com>
 - Michal Plačko <plackomichal2@gmail.com>
 - Jan Novák
-- Dalibor Hriade <simp@simpleton.com>
-- Jaromír
