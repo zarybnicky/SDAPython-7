@@ -2,12 +2,16 @@ from typing import List
 
 primes = [2, 3, 5, 7, 11, 13, 17]
 
-List = []
+
 def get_prime_factors(n: int) -> List[int]:
+    List = []
     for i in primes:
-        if n % i == 0:
+        while n % i == 0:
             List.append(i)
-    return []
+            n/=i
+
+    return List
+print(get_prime_factors(6))
 
 
 # <editor-fold defaultstate="collapsed" desc="Tests">
