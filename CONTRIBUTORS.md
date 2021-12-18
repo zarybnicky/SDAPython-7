@@ -1,3 +1,4 @@
 - Jakub Zárybnický <jakub@zarybnicky.com>
+- Michal Plačko <plackomichal2@gmail.com>
 - Jan Novák
 - Dalibor Hriade <simp@simpleton.com>
