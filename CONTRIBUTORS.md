@@ -1,2 +1,2 @@
 - Jakub Zárybnický <jakub@zarybnicky.com>
-- Jan Tobišek <chudicekjan@gmail.com>
+- Jan Tobišek <email@gmail.com>
