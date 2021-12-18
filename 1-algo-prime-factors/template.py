@@ -2,11 +2,7 @@ from typing import List
 
 primes = [2, 3, 5, 7, 11, 13, 17]
 
-List = []
 def get_prime_factors(n: int) -> List[int]:
-    for i in primes:
-        if n % i == 0:
-            List.append(i)
     return []
 
 
