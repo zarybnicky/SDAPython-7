@@ -1,2 +1,3 @@
 - Jakub Zárybnický <jakub@zarybnicky.com>
 - Jan Novák
+- Dalibor Hriade <simp@simpleton.com>
