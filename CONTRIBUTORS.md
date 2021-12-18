@@ -1,4 +1,5 @@
 - Jakub Zárybnický <jakub@zarybnicky.com>
+- Eda Patka <eduard.patka@gmail.com>
 - Jan Tobišek <email@gmail.com>
 - Miroslav Jezik <miracle.flame@gmail.com>
 - Michal Plačko <plackomichal2@gmail.com>
