@@ -22,7 +22,7 @@ def get_prime_factors(num):
     # calling function
 
 
-num = 200
+num = 250
 get_prime_factors(num)
 
 # def get_prime_factors(n: int) -> List[int]:
