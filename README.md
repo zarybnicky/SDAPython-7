@@ -19,8 +19,48 @@
     - find a specific example of input that is complex enough
     - write down the concrete steps that **I** would do to solve the problem for a specific input
     - find patterns in the steps/operations, e.g. introduce loops (while, for), helper functions, ...
+  - divide and conquer
 - demo: binary search
 - task: 12 days of Christmas
+
+#### Prime factors
+
+##### Top-down
+
+General steps:
+
+- Find a prime number,
+- Check if the number is divisible.
+- If divisible, n is a prime factor, check again
+- If not divisible, look for next prime
+
+More specific:
+
+- "is divisible" == "n % p == 0"
+- "find a prime number" == "The Sieve of Eratosthenes"
+
+##### Bottom-up
+
+- n=54
+
+- 54 % 2 = 0, is divisible => 2 is a prime factor
+
+- 54 / 2 = 27
+
+- 27 % 2 = 1, is not divisible => 2 is not a prime factor
+
+- next prime = 3
+
+- 27 % 3 = 0, is divisible => 3 is a prime factor
+
+- 27 / 3 = 9
+
+- 9 % 3 = 0, is divisible => 3 is a prime factor
+
+- 9 / 3 = 3
+- 3 % 3 = 0, is divisible => 3 is a prime factor
+- 3 / 3 = 1, we are done
+- => prime factors are 2, 3, 3, 3
 
 #### Binary search
 
@@ -127,3 +167,27 @@ In Git Bash,
 2. git remote add upstream [ORIGINAL REPO]
 3. git pull upstream master
 4. git rebase upstream/master
+
+# Bottom-up approach, n=54
+
+# 54 % 2 = 0, is divisible => 2 is a prime factor
+
+# 54 / 2 = 27
+
+# 27 % 2 = 1, is not divisible => 2 is not a prime factor
+
+# next prime = 3
+
+# 27 % 3 = 0, is divisible => 3 is a prime factor
+
+# 27 / 3 = 9
+
+# 9 % 3 = 0, is divisible => 3 is a prime factor
+
+# 9 / 3 = 3
+
+# 3 % 3 = 0, is divisible => 3 is a prime factor
+
+# 3 / 3 = 1, we are done
+
+# prime factors are 2, 3, 3, 3
