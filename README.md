@@ -116,12 +116,10 @@ xs =           5,
 ### Data structures
 
 - concept
-
   - "... is a data organization, management, and storage format that enables efficient access and modification."
   - Opaque object, that provides a set of operations (that comprise the API, "rozhraní")
 - set, dict, list
 - linked list, "spojový seznam"
-
   - concept
   - demo, task: length
 - stack (concept, demo: single parentheses, task: multiple parentheses)
