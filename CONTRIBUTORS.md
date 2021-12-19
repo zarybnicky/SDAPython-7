@@ -1,4 +1,5 @@
 - Jakub Zárybnický <jakub@zarybnicky.com>
+- Dalibor Hriadel <alicavkrajinezazrakov@nebo.sk>
 - Kateřina Krátká <katerina.kratka@ice.cz>   
 - Monika Mandáčková
 - Dalibor Hriadel <simpleton@simpleton.sk>
