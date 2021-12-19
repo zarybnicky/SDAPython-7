@@ -2,9 +2,28 @@
 
 ### Git concepts review
 
-- Remote repositories, fetch, pull
-- Fork, contribution workflow
-- Merge conflict
+- Repository
+
+  - Remote repository (GitHub, GitLab)
+    - Main Repo:
+      - zarybnicky/SDAPython-7 = writable only by owner (zarybnicky)
+    - Fork = copy of the main repo:
+      - StingrayCZ/SDAPython-7 = writable only by owner (StingrayCZ)
+  - Local repository (files on disk)
+    - `git clone https://github.com/zarybnicky/SDAPython-7.git` => local clone of the repo
+- "Remote" (`git remote -v`) = reference to a remote repository by URL
+
+  - "origin" - where was this repo cloned from
+  - "upstream" - where was "origin" forked from
+- `git push`, `git fetch`, (`git pull`)
+
+  - "push" = upload local commits to a remote repo
+  - "fetch" = download commits from a remote repo
+  - ("pull" = fetch + rebase/merge)
+  - "Sync Fork"
+    - `git fetch upstream`
+    - `git rebase upstream`
+- "Pull Request" (PR)
 
 ## Session 3
 
@@ -118,13 +137,7 @@ xs =           5,
 - concept
   - "... is a data organization, management, and storage format that enables efficient access and modification."
   - Opaque object, that provides a set of operations (that comprise the API, "rozhraní")
-- you already know: set, dict, list
-
-
-- linked list, "spojový seznam"
-- stack (concept, demo: single parentheses, task: multiple parentheses)
-- queue (concept, demo: Queue + stdin, task: two Queues (L/R) + stdin)
-- tree (concept, demo: creation, task: find
+- you already know some: set, dict, list
 
 #### Linked List
 
@@ -134,30 +147,40 @@ xs =           5,
 - `[1, 2, 3] : list`
 - `( 1, -> )   ->   ( 2, -> )  ->  ( 3, NULL ) : linked list`
 
+  class LinkedListNode
+  def __init__(self, data, next):
+  self.data = data
+  self.next = next
 
-    class LinkedListNode
-        def __init__(self, data, next):
-            self.data = data
-            self.next = next
+  class TreeNode:
+  def __init__(self, data, left, right):
+  self.data = data
+  self.left = left
+  self.right = right
 
-    class TreeNode:
-        def __init__(self, data, left, right):
-            self.data = data
-            self.left = left
-            self.right = right
+  three = LinkedList(3, None)
+  two = LinkedList(2, three)
+  one = LinkedList(1, two)
+  list = one
+  while list is not None:
+  print(list.data)
+  list = list.next
 
-    three = LinkedList(3, None)
-    two = LinkedList(2, three)
-    one = LinkedList(1, two)
-    list = one
-    while list is not None:
-        print(list.data)
-        list = list.next
+  list = [1, 2, 3]
+  for item in list:
+  print(item)
 
-    list = [1, 2, 3]
-    for item in list:
-        print(item)
+#### Stack
 
+concept, demo: single parentheses, task: multiple parentheses)
+
+#### Queue
+
+concept, demo: Queue + stdin, task: two Queues (L/R) + stdin)
+
+#### Tree
+
+concept, demo: creation, task: find
 
 ## Linux commands - in Git Bash, Linux servers, desktops
 
