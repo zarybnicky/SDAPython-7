@@ -12,15 +12,50 @@
 
 - approaches:
   - top-down
-    - split the assignment into general steps
-    - split each step into more and more concrete steps
+    - split the **whole problem** into **general steps leading to the solution**, or into **smaller subproblems**
+    - split each step/subprobleme into more and more concrete steps
     - when there is an obvious implementation for a step, write it down
   - bottom-up
-    - find a specific example of input that is complex enough
+    - find a **specific example** of input that is complex enough
     - write down the concrete steps that **I** would do to solve the problem for a specific input
     - find patterns in the steps/operations, e.g. introduce loops (while, for), helper functions, ...
+  - divide and conquer
+    - find the closest subproblem
+    - do the minimum to reduce the problem to a subproblem
+    - n! = n * (n - 1)!
 - demo: binary search
 - task: 12 days of Christmas
+
+#### Prime factors
+
+##### Top-down
+
+General steps:
+
+- Find a prime number,
+- Check if the number is divisible.
+- If divisible, n is a prime factor, check again
+- If not divisible, look for next prime
+
+More specific:
+
+- "is divisible" == "n % p == 0"
+- "find a prime number" == "The Sieve of Eratosthenes"
+
+##### Bottom-up
+
+- n=54
+- 54 % 2 = 0, is divisible => 2 is a prime factor
+- 54 / 2 = 27
+- 27 % 2 = 1, is not divisible => 2 is not a prime factor
+- next prime = 3
+- 27 % 3 = 0, is divisible => 3 is a prime factor
+- 27 / 3 = 9
+- 9 % 3 = 0, is divisible => 3 is a prime factor
+- 9 / 3 = 3
+- 3 % 3 = 0, is divisible => 3 is a prime factor
+- 3 / 3 = 1, we are done
+- => prime factors are 2, 3, 3, 3
 
 #### Binary search
 
@@ -81,10 +116,52 @@ xs =           5,
 ### Data structures
 
 - concept
-- linked list (concept, demo, task: length)
+
+  - "... is a data organization, management, and storage format that enables efficient access and modification."
+  - Opaque object, that provides a set of operations (that comprise the API, "rozhraní")
+- set, dict, list
+- linked list, "spojový seznam"
+
+  - concept
+  - demo, task: length
 - stack (concept, demo: single parentheses, task: multiple parentheses)
 - queue (concept, demo: Queue + stdin, task: two Queues (L/R) + stdin)
 - tree (concept, demo: creation, task: find
+
+#### Linked List
+
+```
+# [ 1, 2, 3 ]: list
+# ( 1, -> )   ->   ( 2, -> )  ->  ( 3, NULL ) : linked list
+
+# Spojový seznam
+# Jedna buňka, jedna položka
+```
+
+```
+class LinkedList:
+    def __init__(self, data, next):
+        self.data = data
+        self.next = next
+
+class TreeNode:
+    def __init__(self, data, left, right):
+        self.data = data
+        self.left = left
+        self.right = right
+
+three = LinkedList(3, None)
+two = LinkedList(2, three)
+one = LinkedList(1, two)
+list = one
+while list is not None:
+    print(list.data)
+    list = list.next
+
+list = [1, 2, 3]
+for item in list:
+    print(item)
+```
 
 ## Linux commands - in Git Bash, Linux servers, desktops
 
