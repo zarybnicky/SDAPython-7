@@ -118,48 +118,46 @@ xs =           5,
 - concept
   - "... is a data organization, management, and storage format that enables efficient access and modification."
   - Opaque object, that provides a set of operations (that comprise the API, "rozhraní")
-- set, dict, list
+- you already know: set, dict, list
+
+
 - linked list, "spojový seznam"
-  - concept
-  - demo, task: length
 - stack (concept, demo: single parentheses, task: multiple parentheses)
 - queue (concept, demo: Queue + stdin, task: two Queues (L/R) + stdin)
 - tree (concept, demo: creation, task: find
 
 #### Linked List
 
-```
-# [ 1, 2, 3 ]: list
-# ( 1, -> )   ->   ( 2, -> )  ->  ( 3, NULL ) : linked list
+- composed of nodes: one node is one unit of the entire list
+- one node (jeden uzel) = jeden článek řetězu
+- node is composed of two slots: one slot for data, one slot for a pointer to the next node
+- `[1, 2, 3] : list`
+- `( 1, -> )   ->   ( 2, -> )  ->  ( 3, NULL ) : linked list`
 
-# Spojový seznam
-# Jedna buňka, jedna položka
-```
 
-```
-class LinkedList:
-    def __init__(self, data, next):
-        self.data = data
-        self.next = next
+    class LinkedListNode
+        def __init__(self, data, next):
+            self.data = data
+            self.next = next
 
-class TreeNode:
-    def __init__(self, data, left, right):
-        self.data = data
-        self.left = left
-        self.right = right
+    class TreeNode:
+        def __init__(self, data, left, right):
+            self.data = data
+            self.left = left
+            self.right = right
 
-three = LinkedList(3, None)
-two = LinkedList(2, three)
-one = LinkedList(1, two)
-list = one
-while list is not None:
-    print(list.data)
-    list = list.next
+    three = LinkedList(3, None)
+    two = LinkedList(2, three)
+    one = LinkedList(1, two)
+    list = one
+    while list is not None:
+        print(list.data)
+        list = list.next
 
-list = [1, 2, 3]
-for item in list:
-    print(item)
-```
+    list = [1, 2, 3]
+    for item in list:
+        print(item)
+
 
 ## Linux commands - in Git Bash, Linux servers, desktops
 
