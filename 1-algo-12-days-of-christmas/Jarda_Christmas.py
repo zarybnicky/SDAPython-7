@@ -23,12 +23,13 @@ def verse(n: int) -> str:
     for _ in range(n+1):
         text.append(gifts[_])
 
-    print(text)
+    print("".join(text))
 
 def whole_song() -> str:
 
     for _ in range(12):
         verse(_)
+        print("\n")
 
 # <editor-fold defaultstate="collapsed" desc="Tests">
 def test_verse():
