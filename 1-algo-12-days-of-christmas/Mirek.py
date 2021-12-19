@@ -15,12 +15,12 @@ gifts = [
 
 def verse(n: int) -> str:
     days = ["first", "second", "third", "fourth", "fifth", "sixth", "seventh", "eighth", "ninth", "tenth", "eleventh", "twelveth"]
-    all_gifts = ""
+    stacked_gifts = ""
     for gift in range(n-1, -1, -1):
-        all_gifts += f"{gifts[gift]}\n"
+        stacked_gifts += f"{gifts[gift]}\n"
     verse = (f"On the {days[n-1]} day of Christmas\n" +
         "My true love sent to me\n"
-        f"{all_gifts}")
+        f"{stacked_gifts}")
     return verse
 
 def whole_song() -> str:
