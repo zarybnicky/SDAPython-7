@@ -19,7 +19,7 @@ numbers = ["first", "second", "third", "fourth", "fifth", "sixth", "seventh",
 
 def verse(n: int) -> str:
     text = []
-    text.append(f"On the {numbers[n]} day of Christmas, my true love sent to me \n")
+    text.append(f"On the {numbers[n]} day of Christmas, my true love sent to me, \n")
     for _ in range(n+1):
         text.append(gifts[_] + "\n")
 
