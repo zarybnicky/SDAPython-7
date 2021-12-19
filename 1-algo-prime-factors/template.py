@@ -17,7 +17,15 @@ from typing import List
 primes = [2, 3, 5, 7, 11, 13, 17]
 
 def get_prime_factors(n: int) -> List[int]:
-    return []
+    factors = []
+    for prime in primes:
+        if n % prime != 0:
+            continue
+        else:
+            while n % prime == 0:
+                n = n // prime
+                factors.append(prime)
+    return factors
 
 
 # <editor-fold defaultstate="collapsed" desc="Tests">
