@@ -1,23 +1,17 @@
 from typing import List
 
-# 4 = 2 * 2
-# 9 = 3 * 3
-# 27 = 3 * 3 * 3
-
-# % (modulo, zbytek po dělení)
-# 5 % 2 = 1
-
-# n == 4:
-# 4 % 2 = 0?
-# => 2 is a prime factor of 4 == append to list of factors, 4 / 2 = 2
-# => 2 % 2 = 0?
-# => 2 is a prime factor of 2 == append to list of factors, 2 / 2 = 1
-# => 2 / 2 == 1, můžeme skončit
-
 primes = [2, 3, 5, 7, 11, 13, 17]
 
+
 def get_prime_factors(n: int) -> List[int]:
-    return []
+    List = []
+    for i in primes:
+        while n % i == 0:
+            List.append(i)
+            n/=i
+
+    return List
+print(get_prime_factors(6))
 
 
 # <editor-fold defaultstate="collapsed" desc="Tests">
