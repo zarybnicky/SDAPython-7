@@ -15,6 +15,14 @@ class AbstractQueue(ABC):
         pass
 
 
+# Q = [(12, 10)]
+# pop from Q, searching neighbors of (12, 10)
+# neighbors are (12, 9), (11, 10)
+# push them to Q one-by-one
+
+# Q = [(10, 8), (10, 9)]
+
+
 def BFS(Queue, maze, start=None):
     if start is None:
         start = (maze.rows, maze.cols)
@@ -28,10 +36,11 @@ def BFS(Queue, maze, start=None):
         agent_path.append(current_cell)
         if current_cell == maze._goal:
             break
+
+        # Finding neighbors
         for d in "ESNW":
             if not maze.maze_map[current_cell][d]:
                 continue
-
             if d == "E":
                 next_cell = (current_cell[0], current_cell[1] + 1)
             elif d == "W":
@@ -42,6 +51,7 @@ def BFS(Queue, maze, start=None):
                 next_cell = (current_cell[0] - 1, current_cell[1])
             if next_cell in explored:
                 continue
+
             frontier.enqueue(next_cell)
             explored.append(next_cell)
             bfs_path[next_cell] = current_cell
