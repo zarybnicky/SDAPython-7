@@ -20,7 +20,7 @@ def main():
 
     TextLabel(m,'Total Cells',m.rows*m.cols)
 
-    m.tracePath({a:m.path,b:path2,c:path3}, delay=200, kill=True)
+    # m.tracePath({a:m.path,b:path2,c:path3}, delay=200, kill=True)
     m.run()
 
 

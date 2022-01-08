@@ -1,22 +1,24 @@
 from abc import ABC, abstractmethod, abstractclassmethod
 
-def Queue(ABC):
+
+class AbstractQueue(ABC):
     @abstractclassmethod
-    def from_list(start: List) -> Queue:
+    def from_list(cls, start):
         pass
 
     @abstractmethod
-    def enqueue(item):
+    def enqueue(self, item):
         pass
 
-    def dequeue():
+    @abstractmethod
+    def dequeue(self):
         pass
 
 
-def BFS(queue, maze, start=None):
+def BFS(Queue, maze, start=None):
     if start is None:
         start = (maze.rows, maze.cols)
-    frontier = queue.from_list([start])
+    frontier = Queue.from_list([start])
     explored = [start]
     bfs_path = {}
     agent_path = []
