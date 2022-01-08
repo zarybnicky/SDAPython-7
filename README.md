@@ -182,6 +182,46 @@ concept, demo: Queue + stdin, task: two Queues (L/R) + stdin)
 
 concept, demo: creation, task: find
 
+## Session 4
+
+### Gridworld
+- TKinter
+- Gridworld
+- Fork & play, WASD
+- Pathfinding = tree search
+  - Natural, strategies
+
+### BFS
+= queue
+
+list, deque, timeit
+
+### DFS
+= stack
+
+list, deque, timeit
+
+### Dijkstra
+= Prio Q
+
+tree, heap, min-heap, heapq
+
+## Session 5
+
+### Review
+- Virtualenv
+- Git
+- GitHub
+- Algorithmization
+- Recursion
+
+### Practical
+- refactoring
+- linters
+- documentation
+
+### Sorting
+
 ## Linux commands - in Git Bash, Linux servers, desktops
 
 - ls [DIR]         - LiSt directory    ("dir" in cmd.exe)
